@@ -32,15 +32,13 @@ The project is divided into two main parts: **Back-End (Spring Boot)** and **Fro
 ### 🔹 Back-End: `employeecrud/`
 This is the **Spring Boot project** responsible for handling business logic and exposing REST APIs.
 
-- **`src/main/java/com/employee/crud/`** → Contains the Java source code  
+  - `src/main/java/com/employee/crud/` → Contains the Java source code  
   - `CrudApplication.java` → Entry point of the Spring Boot application  
   - `controller/EmployeeController.java` → Handles REST API requests (CRUD operations)  
   - `entity/Employee.java` → Entity class mapped to the database table  
-
-- **`src/main/resources/`** → Contains configuration files  
+  - `src/main/resources/` → Contains configuration files  
   - `application.properties` → Database connection details, server port, Hibernate settings  
-
-- **`pom.xml`** → Maven build file, used to manage dependencies and plugins  
+  - `pom.xml` → Maven build file, used to manage dependencies and plugins  
 
 ---
 
